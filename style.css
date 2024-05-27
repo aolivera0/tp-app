@@ -1,0 +1,125 @@
+html {
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #001219;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+  background-color: #015565;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 30px 40px;
+  border-radius: 3px;
+}
+
+input,
+select {
+  border: none;
+  padding: 4px;
+}
+
+input {
+  width: 50px;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.campos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.semanas-mes {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.semanas-pasadas {
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.campos {
+  display: flex;
+  margin: 0 auto;
+}
+
+.botones {
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  color: #fff;
+  opacity: 90%;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 100%;
+}
+
+.btn-calcular {
+  background-color: #1bcb76;
+
+}
+
+.btn-limpiar {
+  background-color: #7E775F;
+
+}
+
+.resultados {
+  background-color: #3b8d8e;
+  border-radius: 2px;
+  padding: 10px 35px;
+  font-size: 16.5px;
+}
+
+.promedio {
+  font-weight: bold;
+}
+
+.necesario {
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.felicidades,
+.no-bonifica {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.felicidades {
+  color: #2DD686;
+}
+
+.no-bonifica {
+  color: #d42e2e;
+}

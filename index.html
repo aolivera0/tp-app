@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP App</title>
+  </head>
+  <body>
+    <main>
+      <h1>Bonos</h1>
+      <div class="semanas-mes">
+        <fieldset>
+          <legend>Seleccione el número de semanas del mes: </legend>
+    
+          <div>
+            <input type="radio" name="semanasMes" value="4_semanas" checked id="_4semanas"/>
+            <label for="4_semanas">4 semanas</label>
+          </div>
+    
+          <div>
+            <input type="radio" name="semanasMes" value="5_semanas" />
+            <label for="5_semanas">5 semanas</label>
+          </div>
+        </fieldset>
+      </div>
+      <div class="semanas-pasadas">
+        <label for="semanas">Seleccione la cantidad de semanas que han pasado:</label>
+        <select name="" id="semanas">
+        <option value="disabled" disabled selected>-- Seleccione --</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      </div>
+    
+      <section id="campos" class="campos">
+    
+      </section>
+    
+      <div class="botones">
+        <button id="boton-calcular" class="btn btn-calcular">Calcular</button>
+        <button id="boton-limpiar" class="btn btn-limpiar">Limpiar</button>
+      </div>
+    
+      <section id="resultados" class="resultados hidden"></section>
+    </main>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
